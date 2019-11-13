@@ -18,7 +18,7 @@ class UI {
         <span class="badge badge-info m-2">Following: ${user.following}</span>
         <ul class="list-group mt-4">
           <li class="list-group-item">Company: ${user.company}
-          <li class="list-group-item">Website/ Blog: <a href="${user.blog}">${user.blog}</a>
+          <li class="list-group-item">Website/ Blog: <a href="http://${user.blog}">${user.blog}</a>
           <li class="list-group-item">Location: ${user.location}
           <li class="list-group-item">Since: ${user.created_at}
         </ul>
